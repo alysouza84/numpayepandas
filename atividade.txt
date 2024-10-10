@@ -1,0 +1,47 @@
+Numpy e Python
+
+Esta atividade compreende na entrega dos arquivos notebook (.ipynb) referente aos exercícios de Numpy e Pandas. A atividade pode ser feita em dupla e terá o valor total de 1 ponto, sendo 0,5 ponto para a entrega Numpy e 0,5 ponto para entrega Pandas.
+
+1) Numpy (0,5 ponto)
+
+Salary_Data.csv
+
+Com base no arquivo "Salary_Data.csv", realize o seguinte procedimento no Jupyter Notebook:
+
+Leia o dataset usando pandas.
+Converta os dados relevantes em arrays NumPy (utilize o método .to_numpy())
+Calcule a média de salários.
+Calcule a média de tempo de serviço.
+Encontre o salário médio dos funcionários com mais de 5 anos de serviço.
+Crie um gráfico de barras mostrando os salários referente ao tempo de serviço.
+Considere um aumento de 10% para o salário de cada funcionário e apresente o resultado do aumento.
+
+Dataset retirado de: https://www.kaggle.com/datasets/harsh45/random-salary-data-of-employes-age-wise
+
+2) Pandas (0,5 ponto)
+
+Netflix TV Shows and Movies.csv
+
+Utilize o dataset "Netflix TVC Shows and Movies.csv" e, através do Jupyter Notebook, realize as operações necessárias para obter as seguintes informações:
+
+Liste os 10 primeiros itens do dataset.
+Liste os últimos 10 itens do dataset. 
+Qual o filme com o maior imdb_score e qual o filme com o pior imdb_score? 
+Qual a média de duração dos shows de TV e duração de filmes?
+Qual o show de TV com maior duração por episódio e o filme com duração mais longa?
+Qual ano apresentou a maior quantidade de filmes avaliados com imdb?
+Quais as categorias encontradas de age_certification e qual a quantidade de filmes para cada categoria?
+Quais colunas apresentam campos vazios? Qual a quantidade de campos vazios?
+Gere um gráfico que você considere interessantes para apresentar a média de scores ao longo dos anos para filme e outro para shows.
+Gere um gráfico que você considere interessante para apontar a proporção de votantes para shows e filmes.
+
+Dados das colunas do dataset (retirado de: https://www.kaggle.com/datasets/thedevastator/netflix-imdb-scores) :
+
+title: The name of a TV show or movie. (Text)
+type: Indicates whether an entry is a TV show or a movie. (Text)
+description: A brief summary or description of a TV show or movie. (Text)
+release_year: The year in which a TV show or movie was released. (Numeric)
+age_certification: The age certification rating for a TV show or movie. (Text)
+runtime: The length of an episode for TV shows or duration of a movie. (Text)
+imdb_score: The score given by users on IMDB for a particular title. (Numeric)
+imdb_votes: The number of votes received by each title on IMDB. (Numeric)
